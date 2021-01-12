@@ -2,8 +2,7 @@
     require "header.php";
 ?>
 
-
-<main>
+<div class="wrapper">
 
     <h1>Signup</h1>
     <?php
@@ -42,8 +41,7 @@
         <button type="submit" name="signup-submit">Signup</button>
     </form>
 
-</main>
-
+</div>
 
 <?php
     require "footer.php";

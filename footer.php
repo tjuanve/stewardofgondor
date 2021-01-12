@@ -6,6 +6,5 @@
 Send me mail at <a href="mailto:thijsvaneeden@gmail.com">thijsvaneeden@gmail.com</a></p>
 </div>
 
-
-
 </body>
+</html>

@@ -34,7 +34,6 @@ body {
 .footer {
   height: 50px;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
@@ -42,8 +41,8 @@ body {
   text-align: center;
 }
 
-.newgame {
-    padding: 0 0;
+.footer a {
+    color: red;
 }
 
 header {
@@ -222,15 +221,16 @@ p {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  font-size: 13px;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+  border: 2px solid #dddddd;
+  text-align: center;
   padding: 8px;
 }
 

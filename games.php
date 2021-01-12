@@ -2,7 +2,12 @@
     require "header.php";
 ?>
 
+<div class="wrapper">
+
+
 <h1>Games played</h1>
+
+<div class="table">
 
 <table>
     <tr>
@@ -13,6 +18,7 @@
         <th colspan="3">Player 4</th>
         <th colspan="3">Player 5</th>
         <th colspan="3">Player 6</th>
+        <th></th>
     </tr>
 
     <tr>
@@ -56,7 +62,9 @@
     ?>
 
 </table>
+</div>
 
+</div>
 
 <?php
     require "footer.php";

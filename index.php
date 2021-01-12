@@ -2,9 +2,9 @@
     require "header.php";
 ?>
 
-<main>
+<div class="wrapper">
 
-<h1>Homepage</h1>
+<h1>Welcome to Gondor</h1>
 
 <?php
 if ( isset($_SESSION['userId']) ) {
@@ -16,7 +16,10 @@ else {
 
 ?>
 
-</main>
+<br>
+<p>Here we keep track of our games.</p>
+
+</div>
 
 <?php
     require "footer.php";

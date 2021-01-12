@@ -2,9 +2,13 @@
     require "header.php";
 ?>
 
+<div class="wrapper">
 
 <h1>Leaderbord</h1>
 
+
+
+<div class="table">
 
 <table>
     <tr>
@@ -32,7 +36,9 @@
 
 </table>
 
+</div>
 
+</div>
 
 <?php
     require "footer.php";

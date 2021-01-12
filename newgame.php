@@ -2,6 +2,7 @@
     require "header.php";
 ?>
 
+<div class="wrapper">
 
 <h1>Add a new game</h1>
 
@@ -222,15 +223,16 @@ if ( isset($_SESSION['userId']) ) {
 
 
 <fieldset>
-    <br>
-    <label for="winner">Winning team</label>  <button type="submit" name="submit">Add to database</button>
+    <label for="winner">Winning team</label> 
     <br>
     <select id="winner" name="winner">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
+    </select>
     <br>   
+    <button type="submit" name="submit">Add to database</button>
 </fieldset>
 
 
@@ -246,12 +248,10 @@ else {
 
 ?>
 
-
-
-
-
-
+</div>
 
 <?php
     require "footer.php";
 ?>
+
+

@@ -3,8 +3,12 @@
 ?>
 
 
+<div class="wrapper">
+
+
 <h1>Statistics</h1>
 
+<div class="table">
 
 <table>
     <tr>
@@ -45,8 +49,9 @@
     ?>
 
 </table>
+</div>
 
-
+</div>
 
 <?php
     require "footer.php";
